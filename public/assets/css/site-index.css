@@ -1,0 +1,523 @@
+.tafra-default-btn {
+  background: #FF9D00;
+}
+
+.tafra-default-btn:hover {
+  background: #FF9D00de;
+  color: #fff;
+}
+
+.header {
+  background: url("../images/images-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 5px 50px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 5px 50px rgba(0, 0, 0, 0.16);
+  height: 85vh;
+}
+
+.header .inner-layout {
+  background: -webkit-gradient(linear, left top, right top, from(#0000008c), to(#ffffff00));
+  background: linear-gradient(90deg, #0000008c, #ffffff00);
+  background-color: rgba(2, 21, 89, 0.7);
+  height: 100%;
+}
+
+.header .logo {
+  width: 271px;
+  height: 51px;
+  float: left;
+  margin-top: 21px;
+}
+
+.header .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.header .actions {
+  float: right;
+  margin-top: 21px;
+}
+
+.header .actions .tafra-btn {
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: 25px;
+}
+
+.header .actions .link {
+  margin-right: 15px;
+}
+
+.header .content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.header .content .intro {
+  margin-bottom: 15%;
+  margin-top: 27%;
+}
+
+.header .content .intro h1, .header .content .intro h2, .header .content .intro p {
+  font-weight: bold;
+}
+
+.header .content .action .tafra-btn {
+  padding-right: 25%;
+  padding-left: 25%;
+  text-align: center;
+}
+
+.how-we-can-do {
+  padding: 4% 0 8% 0;
+  text-align: center;
+}
+
+.how-we-can-do h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 43px;
+  margin-bottom: 5.4rem;
+}
+
+.how-we-can-do .how-cards {
+  margin-bottom: 7%;
+}
+
+.how-we-can-do .how-cards .how-card {
+  position: relative;
+  margin-bottom: 4vh;
+}
+
+.how-we-can-do .how-cards .how-card img {
+  height: 95px;
+  margin-bottom: 32px;
+}
+
+.how-we-can-do .how-cards .how-card h4 {
+  font-size: 1.25rem;
+  color: #021559;
+  font-weight: bold;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.how-we-can-do .how-cards .how-card p {
+  font-size: 0.9375rem;
+  color: #707070;
+  line-height: 20px;
+  max-width: 189px;
+  margin: auto;
+}
+
+.how-we-can-do .how-cards .col-6:not(:last-of-type) .how-card:after {
+  position: absolute;
+  content: "";
+  top: 40px;
+  right: -38%;
+  width: 60%;
+  border-top: 2px dashed #021559;
+}
+
+.how-we-can-do .tafra-btn {
+  padding-left: 14vw;
+  padding-right: 14vw;
+}
+
+.higher-less {
+  text-align: center;
+}
+
+.higher-less h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.higher-less .video-container {
+  position: relative;
+}
+
+.higher-less .video-container .img-container {
+  position: absolute;
+  top: 0;
+  bottom: 5px;
+  right: 0;
+  left: 0;
+  background: #0000005e;
+  padding: 22%;
+}
+
+.higher-less .video-container .img-container img {
+  width: 18.8%;
+  height: 85%;
+  margin: auto;
+}
+
+.tech-matter {
+  text-align: center;
+  padding: 8% 0 9% 0;
+}
+
+.tech-matter ul {
+  height: 125px;
+}
+
+.tech-matter h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.tech-matter img {
+  height: 50px;
+}
+
+.tech-matter h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 27px;
+  margin-bottom: 25%;
+}
+
+.tech-matter .carousel .carousel-indicators li {
+  background: #DFDFDF;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.tech-matter .carousel-indicators .active {
+  background: #021559 !important;
+}
+
+.tech-matter .carousel-control-next, .tech-matter .carousel-control-prev {
+  color: #000;
+}
+
+.success-story {
+  background-color: #021559;
+  background-image: url("../images/images-Mask Group 3.png");
+  padding: 65px 0;
+  text-align: center;
+}
+
+.success-story h2 {
+  font-size: 3.25rem;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+}
+
+.success-story .story-card {
+  position: relative;
+  background: #fff;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 66px 20px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+  margin-bottom: 12vh;
+  height: 80%;
+}
+
+.success-story .story-card .quotation {
+  position: absolute;
+  top: 18px;
+  right: 29px;
+}
+
+.success-story .story-card .story-img {
+  position: relative;
+  top: -15vh;
+}
+
+.success-story .story-card p {
+  font-size: 1.375rem;
+  line-height: 30px;
+  color: #707070;
+}
+
+.success-story .story-card h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.success-story .story-card small {
+  font-size: 1rem;
+  line-height: 21px;
+  color: #514684;
+}
+
+.success-story .tafra-btn {
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.questions {
+  padding: 124px 0;
+}
+
+.questions .content {
+  background: #fff;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  padding: 45px 0;
+}
+
+.questions .content h3 {
+  font-size: 1.875rem;
+  color: #021559;
+  line-height: 40px;
+}
+
+.questions .content p {
+  font-size: 1.375rem;
+  color: #707070;
+  line-height: 30px;
+}
+
+.for-emp-rec .for-card {
+  text-align: center;
+  padding: 56px 0;
+}
+
+.for-emp-rec .for-card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.for-emp-rec .for-card h3 {
+  font-size: 2.25rem;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.for-emp-rec .for-card small {
+  font-size: 1.125rem;
+  line-height: 36px;
+}
+
+.for-emp-rec .for-card .tafra-btn {
+  margin-top: 25px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.for-emp-rec .employers-card {
+  color: #fff;
+}
+
+.for-emp-rec .employers-card .tafra-btn {
+  background: #FF9D00;
+  color: #fff;
+  border: 2px solid #FF9D00;
+}
+
+.for-emp-rec .employers-card .tafra-btn:hover {
+  background: #fff;
+  color: #FF9D00;
+}
+
+.for-emp-rec .recruiters-card {
+  background: #fff;
+  color: #021559;
+}
+
+.for-emp-rec .recruiters-card .tafra-btn {
+  background: #fff;
+  color: #FF9D00;
+  border: 2px solid #FF9D00;
+}
+
+.for-emp-rec .recruiters-card .tafra-btn:hover {
+  color: #fff;
+  background: #FF9D00;
+}
+
+footer {
+  background: #021559;
+  color: #fff;
+  padding: 11px 0;
+}
+
+footer i {
+  font-size: 1rem;
+  color: #fff;
+}
+
+footer .location {
+  font-size: 0.875rem;
+  line-height: 19px;
+  text-align: left;
+}
+
+footer .copy-right {
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-align: center;
+}
+
+footer .links {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 50vh;
+  }
+  .header .logo {
+    width: 235px;
+    height: 45px;
+    margin-top: 10px;
+  }
+  .header .content .intro {
+    margin-bottom: 18%;
+    margin-top: 18%;
+  }
+  .how-we-can-do {
+    padding: 4% 0 12% 0;
+  }
+  .how-we-can-do h3 {
+    font-family: 'Ubuntu Bold';
+    font-size: 1.125rem;
+    margin-bottom: 3.4rem;
+  }
+  .how-we-can-do .col-6:first-of-type .how-card:after, .how-we-can-do .col-6:nth-last-of-type(2) .how-card:after {
+    top: 20px !important;
+  }
+  .how-we-can-do .col-6:nth-of-type(2) .how-card:after {
+    display: none;
+  }
+  .how-we-can-do .how-cards .how-card img {
+    height: 38px;
+  }
+  .how-we-can-do .how-cards .how-card h4 {
+    font-size: 0.875rem;
+  }
+  .how-we-can-do .how-cards .how-card p {
+    font-size: 0.6875rem;
+  }
+  .higher-less h3 {
+    font-size: 1.125rem;
+  }
+  .tech-matter h3 {
+    font-size: 1.125rem;
+  }
+  .tech-matter img {
+    height: 35px;
+  }
+  .tech-matter h5 {
+    font-size: 0.75rem;
+  }
+  .success-story h2 {
+    font-size: 1.625rem;
+    margin-top: 0;
+  }
+  .success-story .story-card {
+    padding: 44px 17px;
+  }
+  .success-story .story-card .quotation {
+    top: 12px;
+    right: 19px;
+  }
+  .success-story .story-card p {
+    font-size: 0.875rem;
+  }
+  .success-story .story-card h4 {
+    font-size: 0.9375rem;
+  }
+  .success-story .story-card small {
+    font-size: 0.625rem;
+  }
+  .questions {
+    padding: 34px 0;
+  }
+  .questions .content {
+    padding: 15px 0;
+  }
+  .questions .content h3 {
+    font-size: 0.875rem;
+    line-height: 19px;
+  }
+  .questions .content p {
+    font-size: 0.6875rem;
+    line-height: 15px;
+  }
+  .for-emp-rec .for-card {
+    padding: 56px 0;
+  }
+  .for-emp-rec .for-card img {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    margin-bottom: 3.5px;
+  }
+  .for-emp-rec .for-card h3 {
+    font-size: 1.125rem;
+    line-height: 24px;
+  }
+  .for-emp-rec .for-card small {
+    font-size: 0.6875rem;
+    line-height: 18px;
+  }
+  .for-emp-rec .for-card .tafra-btn {
+    margin-top: 14px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  footer {
+    padding: 16px 0;
+  }
+  footer i {
+    font-size: 1rem;
+  }
+  footer .location {
+    font-size: 0.6875rem;
+    line-height: 16px;
+  }
+  footer .copy-right {
+    -webkit-box-ordinal-group: 14;
+        -ms-flex-order: 13;
+            order: 13;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    height: 40vh;
+  }
+  .header .logo {
+    width: 195px;
+    height: 35px;
+  }
+  .header .content .intro {
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+  .header .content .intro h1 {
+    font-size: 1.25rem;
+  }
+  .header .content .intro h2 {
+    font-size: 1.125rem;
+  }
+  .header .content .intro p {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

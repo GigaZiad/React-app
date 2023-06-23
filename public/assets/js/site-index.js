@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#menu-btn").click(function(){
+        console.log('clicked')
+      $("#menu").toggleClass('show');
+    });
+    $('#video-container').click(function(){
+        $('#home-video').attr("controls",'true');
+        $('#video-overlay').addClass('d-none')
+    })
+  });
